@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "challenge_01": "deno run --allow-read src/challenge_01/index.ts"
+    "challenge_01": "deno run --allow-read src/challenge_01/index.ts",
+    "challenge_02": "deno run --allow-read src/challenge_02/index.ts"
   }
 }
