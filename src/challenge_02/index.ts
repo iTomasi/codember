@@ -24,9 +24,10 @@ async function init() {
 
       if (
         !refValue ||
+        refValue.length === 1 ||
         (
           refValue.length < 3 &&
-          Number(refValue) < 97
+          Number(refValue) < 13
         )
       ) {
         refValue += character
