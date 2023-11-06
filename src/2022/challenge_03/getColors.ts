@@ -1,6 +1,6 @@
 const getColors = async () => {
   try {
-    const readTxt = await Deno.readTextFile(Deno.cwd() + '/src/challenge_03/colors.txt')
+    const readTxt = await Deno.readTextFile(Deno.cwd() + '/src/2022/challenge_03/colors.txt')
 
     const data = JSON.parse(readTxt)
 

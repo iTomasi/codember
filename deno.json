@@ -1,9 +1,10 @@
 {
   "tasks": {
-    "challenge_01": "deno run --allow-read src/challenge_01/index.ts",
-    "challenge_02": "deno run --allow-read src/challenge_02/index.ts",
-    "challenge_03": "deno run --allow-read src/challenge_03/index.ts",
-    "challenge_04": "deno run src/challenge_04/index.ts",
-    "challenge_05": "deno run --allow-read src/challenge_05/index.ts"
+    "challenge_01:2022": "deno run --allow-read src/2022/challenge_01/index.ts",
+    "challenge_02:2022": "deno run --allow-read src/2022/challenge_02/index.ts",
+    "challenge_03:2022": "deno run --allow-read src/2022/challenge_03/index.ts",
+    "challenge_04:2022": "deno run src/2022/challenge_04/index.ts",
+    "challenge_05:2022": "deno run --allow-read src/2022/challenge_05/index.ts",
+    "challenge_01:2023": "deno run --allow-read src/2023/challenge_01/index.ts"
   }
 }

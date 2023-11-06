@@ -1,6 +1,6 @@
 const getMecenas = async () => {
   try {
-    const readFile = await Deno.readTextFile(Deno.cwd() + '/src/challenge_05/mecenas.txt')
+    const readFile = await Deno.readTextFile(Deno.cwd() + '/src/2022/challenge_05/mecenas.txt')
 
     const data = JSON.parse(readFile)
 

@@ -1,6 +1,6 @@
 const getEncryptedMessage = async () => {
   try {
-    const readTxt = await Deno.readTextFile(Deno.cwd() + '/src/challenge_02/encrypted.txt')
+    const readTxt = await Deno.readTextFile(Deno.cwd() + '/src/2022/challenge_02/encrypted.txt')
 
     return {
       data: readTxt.trim()

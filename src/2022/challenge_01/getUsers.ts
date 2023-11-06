@@ -1,6 +1,6 @@
 const getUsers = async () => {
   try {
-    const users = await Deno.readTextFile(`${Deno.cwd()}/src/challenge_01/users.txt`)
+    const users = await Deno.readTextFile(`${Deno.cwd()}/src/2022/challenge_01/users.txt`)
 
     return {
       data: users
